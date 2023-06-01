@@ -10,9 +10,22 @@
       color:white;
       background-color:black;
     }
+	</style>
   </head>
   <body>
    <div class="header">Harry Potter Places</div>
+	  <h1>Click where you want to go</h1>
+	  <img src="깃허브/영국 지도.png width="400px; height="600px onmousemove="where(event)"><br>
+											<div id="div"></div>
+												     <script>
+												     var div=document.getElementById("div");
+																	  function where(e){
+			var text="버튼="+ e.button +"<br>";
+	  text +="(offsetX,offsetY)="+
+	  e.offsetX+","+e.offsetY+"<br>"
+	  div.innerHTML = text;
+	  }
+	  </script>
     
   </body>
 </html>
