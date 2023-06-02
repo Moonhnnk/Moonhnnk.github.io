@@ -60,9 +60,9 @@ padding:30px;
 .content{width:80%;
 padding:20px;
 }
-		  .point{position:absolute;
-			  left:
-				  top:
+		 .point{position:absolute;
+			  left:210px;
+				  top:740px;
 		  }
 	  
 	  </style>
@@ -89,9 +89,9 @@ padding:20px;
 <li><a href="#2">레든홀 마켓소개</a></li>
 <li><a href="#3">레든홀 마켓 위치</a></li>
 </ol><br><br><br>
-<img src="깃허브/영국 지도.png" width="300" height="500" onmousemove="where(event)">
-	<img src="깃허브/레든홀.png" width="120" height="120">
-	<div id="div"></div>
+<img src="깃허브/영국 지도.png" width="300" height="500">
+	<div class="point"><img src="깃허브/레든홀.png" width="120" height="120"></div>
+	
 
 </div>
 <div class="content">
@@ -122,16 +122,7 @@ padding:20px;
 			  </div>
 			  </div>
 					</div>	  
-				  
-	<script>
- var div = document.getElementById("div");
-  function where(e) {
-    var text = "버튼=" + e.button + "<br>";
-    text += "(offsetX, offsetY)=" + e.offsetX + "," + e.offsetY + "<br>";
-    text += "(x,y)=" + e.x + "," + e.y + "<br>";
-    div.innerHTML = text;
-}
-</script>			  
+		  
 			  
 	
     
