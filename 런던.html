@@ -26,23 +26,40 @@
 			  margin:0px 10px;
 			   padding:0;
 		  }
+ol li{text-align:left-center;
+list-style-type:none;
+margin-bottom:15px;
+font-size:20px;}
 		   a{text-decoration:none;
-		  }
+		  color:black;}
 		  .logo{position:absolute;
 			  left:50%;
 		  }
 		  ul li{font-size:16px;
 		  }
 	  
-		  h2{color:#969696;
+		  h1{color:#969696;
 	  }
 		 
-		  .text{text-align:justify;
+		  .text{text-align:center;
 		  }
 		  p{color:#149494;
-		  font-size:16px;}
+		 }
 	
-		 
+		 table, tr, th{border:1px solid black;
+border-collapse:collapse;
+}
+table{margin: auto;
+width:600px;
+}
+.all{display:flex;
+}
+.sidebar{width:20%;
+padding:30px;
+}
+.content{width:80%;
+padding:20px;
+}
 	  
 	  </style>
 	</head>
@@ -61,24 +78,37 @@
 			  </div>
 	
 	 <br><br><br>
+<div class="all">
+<div class="sidebar">
+<ol>
+<li><a href="#1">영화 장면</a></li>
+<li><a href="#2">ZSL 런던 동물원 소개</a></li>
+<li><a href="#3">ZSL 운영 시간</a></li>
+<li><a href="#4">ZSL 런던 동물원 위치</a></li>
+</ol><br><br><br>
+<img src="C:\Users\82106\Desktop\깃허브\영국 지도.png" width="300" height="500">
+</div>
+<div class="content">
 			
 			  <div class="text">
-			  <h2>ZSL 런던 동물원</h2>
-			  <p>영화 장면</p>
-			  &lt;해리포터와 마법사의 돌&gt;에서 두들리의 생일을 기념해서 더즐리 가족들은 런던 동물원으로 놀러갑니다. 
-			  이곳에서 해리는 파셀통그(뱀의 언어)로 뱀과 소통을 하고, 두들리를 곤경에 빠지게 합니다.
-			  <p>ZSL 런던 동물원 소개<p>
-			  영국에서 가장 많은 수의 동물을 보유하고 있는 동물원으로 1828년 4월 개관하여 200년의 역사를 자랑한다. 
-			  과학적 연구를 병행하는 동물원으로는 세계에서 가장 오래된 동물원이라고 할 수 있다. 
-			  포유류 180종 982점, 조류 419종 1,139점, 파충류 152종 363점으로 합계 1141종 8746점의 동물들이 살고있다. 
-				  <p>ZSL 운영 시간</p><br><br>
-				  <tabel border="0">
-					 <thead>
+			  <h1>ZSL 런던 동물원</h1><br><br>
+			  <p><h2 id="1">영화 장면</h2></p><br><br>
+				  <img src="   " width="400" height="300">  <img src="   " width="400" height="300"> <br><br>
+
+			  &lt;해리포터와 마법사의 돌&gt;에서 두들리의 생일을 기념해서 더즐리 가족들은 런던 동물원으로 놀러갑니다.<br> 
+			  이곳에서 해리는 파셀통그(뱀의 언어)로 뱀과 소통을 하고, 두들리를 곤경에 빠지게 합니다.<br><br>
+			  <p><h2 id="2">ZSL 런던 동물원 소개</h2></p><br><br>
+			  영국에서 가장 많은 수의 동물을 보유하고 있는 동물원으로 1828년 4월 개관하여 200년의 역사를 자랑한다. <br>
+			  과학적 연구를 병행하는 동물원으로는 세계에서 가장 오래된 동물원이라고 할 수 있다. <br>
+			  포유류 180종 982점, 조류 419종 1,139점, 파충류 152종 363점으로 합계 1141종 8746점의 동물들이 살고있다.<br><br> 
+				  <p><h2 id="3">ZSL 운영 시간</h2></p><br><br>
+				  <table border="1">
+					 
 						 <tr>
-						  <th>Dates</th>
-						  <th>Opening</th>
-						  <th>Last entry</th>
-						  <th>Closing</th>
+						  <th style="background-color:#FD93F9">Dates</th>
+						  <th style="background-color:#FD93F9">Opening</th>
+						  <th style="background-color:#FD93F9">Last entry</th>
+						  <th style="background-color:#FD93F9">Closing</th>
 					  </tr>
 					  <tr>
 						  <th>5 september 2023-30 October 2023</th>
@@ -99,11 +129,20 @@
 						  <th>15:00</th>
 						  <th>16:00</th>
 					  </tr>
-					  </thead>
-					  </table>
+					  
+					  </table><br><br>
+				  <p><h2 id="4">ZSL 런던 동물원 위치</h2></P>
+			  <br>
+			  <br>
+			  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4963.57022817324!2d-0.15467484498290493!3d51.53550105741812!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ad73297f857%3A0xb1723f26e03c12a8!2z65-w642YIOuPmeusvOybkA!5e0!3m2!1sko!2skr!4v1685704406753!5m2!1sko!2skr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
+Address: Outer Cir, London NW1 4RY England
+<br>
+<br>
+<br>
+<br>
 			  </div>
 			  </div>
-						  
+					</div>	  
 				  
 				  
 			  
